@@ -58,7 +58,7 @@ Update paths and file handling inside scripts based on your local file structure
 
 Made with ❤️ by Adhish J S
 
-yaml
+
 
 ---
 
