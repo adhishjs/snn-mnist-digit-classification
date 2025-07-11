@@ -13,8 +13,6 @@ IMAGE/
 ├── train_digit.py # Script to train the model
 
 markdown
-Copy
-Edit
 
 ## 🚀 Features
 
@@ -29,31 +27,30 @@ Install all required packages using:
 
 ```bash
 pip install -r requirements.txt
+```
 🧠 Training the Model
 To train the model from scratch:
 
-bash
-Copy
-Edit
+```bash
 python train_digit.py
+```
 This will save the trained weights to parameters.pt.
 
 🔍 Running Inference
 To run inference using a pre-trained model:
 
-bash
-Copy
-Edit
+```bash
 python run_digit.py
+```
 Make sure parameters.pt exists or update the path to your weights.
 
 📊 Visualizing the Data
 You can visualize samples using:
 
-bash
-Copy
-Edit
+```bash
+
 python ds_visual.py
+```
 📌 Notes
 Make sure the dataset is in the right format (e.g., MNIST-like 28x28 grayscale images).
 
@@ -62,8 +59,6 @@ Update paths and file handling inside scripts based on your local file structure
 Made with ❤️ by Adhish J S
 
 yaml
-Copy
-Edit
 
 ---
 
@@ -75,9 +70,9 @@ torchvision
 matplotlib
 numpy
 You can generate this yourself by running:
+```
+```bash
 
-bash
-Copy
-Edit
 pip freeze > requirements.txt
+```
 But for now, the above is sufficient unless you use additional libraries.
