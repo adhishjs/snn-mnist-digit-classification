@@ -55,7 +55,8 @@ Make sure the dataset is in the right format (e.g., MNIST-like 28x28 grayscale i
 
 Update paths and file handling inside scripts based on your local file structure if necessary.
 
-Made with ❤️ by Adhish J S
+
+Made by Adhish J S
 
 
 
@@ -68,8 +69,9 @@ torch
 torchvision
 matplotlib
 numpy
-You can generate this yourself by running:
 ```
+You can generate this yourself by running:
+
 ```bash
 
 pip freeze > requirements.txt
