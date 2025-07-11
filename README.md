@@ -5,11 +5,10 @@ This project implements a Spiking Neural Network (SNN) using Leaky Integrate-and
 ## 📁 Project Structure
 <pre>
 IMAGE/
-├── DATASET/ # (Optional) Directory for dataset or processed images
-├── about.txt # Miscellaneous description (not required for training)
+├── DATASET/ # Directory for dataset
 ├── ds_visual.py # Script to visualize dataset samples
 ├── parameters.pt # Trained model weights
-├── run_digit.py # Inference script
+├── run_digit.py # Test the model
 ├── train_digit.py # Script to train the model
 </pre> 
 markdown
