@@ -3,7 +3,7 @@
 This project implements a Spiking Neural Network (SNN) using Leaky Integrate-and-Fire (LIF) neurons to classify handwritten digits from the MNIST dataset. It uses PyTorch for model building and training.
 
 ## 📁 Project Structure
-
+<pre>
 IMAGE/
 ├── DATASET/ # (Optional) Directory for dataset or processed images
 ├── about.txt # Miscellaneous description (not required for training)
@@ -11,7 +11,7 @@ IMAGE/
 ├── parameters.pt # Trained model weights
 ├── run_digit.py # Inference script
 ├── train_digit.py # Script to train the model
-
+</pre> 
 markdown
 
 ## 🚀 Features
