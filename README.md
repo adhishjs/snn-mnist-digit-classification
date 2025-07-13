@@ -56,8 +56,6 @@ Make sure the dataset is in the right format (e.g., MNIST-like 28x28 grayscale i
 Update paths and file handling inside scripts based on your local file structure if necessary.
 
 
-Made by Adhish J S
-
 
 
 ---
@@ -77,3 +75,8 @@ You can generate this yourself by running:
 pip freeze > requirements.txt
 ```
 But for now, the above is sufficient unless you use additional libraries.
+
+
+Made by Adhish J S
+For Contact,
+adhishjs05@gmail.com 
